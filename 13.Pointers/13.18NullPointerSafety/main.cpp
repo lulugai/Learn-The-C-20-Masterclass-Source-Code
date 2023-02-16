@@ -7,7 +7,7 @@ int main(){
 	std::cout << "Verbose nullptr check: " << std::endl;
 	
     int *p_number{};//Initialized to nullptr
-    //p_number = new int(7);
+    p_number = new int(7);
     
     /*
     if(!(p_number==nullptr)){
