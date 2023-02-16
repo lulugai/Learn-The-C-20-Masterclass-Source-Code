@@ -6,7 +6,7 @@ int main(){
 	auto var1 {12};
     auto var2 {13.0};
     auto var3 {14.0f};
-    auto var4 {15.0l};
+    auto var4 {15.0l};  //long double
     auto var5 {'e'};
     
     //int modifier suffixes
