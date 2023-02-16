@@ -4,7 +4,7 @@
 int main(){
 
 	//How we've used pointers so far
-    /*
+    
 	int number {22}; // Stack
 	
 	int * p_number = &number;
@@ -23,7 +23,7 @@ int main(){
 	std::cout << std::endl;
 	std::cout << "Uninitialized pointer : " << std::endl;
 	std::cout << "*p_number1 : " << *p_number1 << std::endl;
-    */
+    
 
    //BAD
 	//Writing into uninitialized pointer through dereference
@@ -57,7 +57,7 @@ int main(){
 
 
     //Dynamic heap memory
-    /*
+    
 	int *p_number4{nullptr};
 	p_number4 = new int; 	// Dynamically allocate space for a single int on the heap
 							// This memory belongs to our program from now on. The system
@@ -75,7 +75,7 @@ int main(){
     //Return memory to the OS
     delete p_number4;
     p_number4 = nullptr;
-    */
+    
 
 
     //It is also possible to initialize the pointer with a valid
@@ -120,7 +120,7 @@ int main(){
 
 
       delete p_number5;
-      delete p_number5;
+    //   delete p_number5;
 
 
       //

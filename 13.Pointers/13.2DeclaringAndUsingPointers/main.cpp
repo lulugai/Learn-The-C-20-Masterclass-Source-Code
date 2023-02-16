@@ -3,7 +3,7 @@
 
 
 int main(){
-    /*
+    
     //Declare and initialize pointer
     int* p_number {}; // Will initialize with nullptr
     double*  p_fractional_number{};
@@ -40,7 +40,7 @@ int main(){
     //It is better to separate these declarations on different lines though
     int *p_number7{};
     int other_int_var7{}; // No room for confusion this time
-    */
+    
 
 
     //Initializing pointers and assigning them data
