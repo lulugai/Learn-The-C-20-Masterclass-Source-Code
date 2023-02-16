@@ -11,7 +11,7 @@ int main(){
     */
 
    //exception
-   /*
+   
     for(size_t i{0} ; i < 100 ; ++i){
         try{
             int * data = new int[1000000000];
@@ -19,7 +19,7 @@ int main(){
             std::cout << "  Something went wrong : " << ex.what() << std::endl;
         }
     }
-    */
+    
 
 
    //std::nothrow
