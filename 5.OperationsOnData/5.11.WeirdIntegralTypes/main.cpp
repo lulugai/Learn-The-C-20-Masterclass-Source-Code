@@ -19,6 +19,7 @@ int main(){
 	
 	std::cout << "size of result1 : " << sizeof(result1) << std::endl; // 4
 	std::cout << "size of result2 : " << sizeof(result2) << std::endl; // 4
+	std::cout << "size of result2 : " << result2 << std::endl; // 4
 	
    
     return 0;
