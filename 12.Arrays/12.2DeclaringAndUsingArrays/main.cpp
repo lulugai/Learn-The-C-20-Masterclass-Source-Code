@@ -58,13 +58,13 @@ int main(){
 
     //If you don't initialize all the elements, those you leave out
     //are initialized to 0
-    /*
+    
     int families[5] {12, 7, 5};
 	
 	for(size_t i{0}; i < 5; ++i){
 		std::cout << "families[" << i << "] : " << families[i] << std::endl;
 	}
-    */
+    
     
 
    	//Omit the size of the array at declaration
