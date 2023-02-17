@@ -15,7 +15,7 @@ int main(){
 	std::cout << "p_double_value : " << p_double_value << std::endl;
 	std::cout << "*p_double_value : " << *p_double_value << std::endl;
 	
-	//Writting through pointer
+	//Writting through pointer same address!!!!
 	*p_double_value = 15.44;
 	
     std::cout << std::endl;
@@ -60,7 +60,7 @@ int main(){
 	std::cout << "*p_double_value : " << *p_double_value << std::endl;
 
 
-    *p_double_value = 555.5;
+    *p_double_value = 555.5; //different address
 
     std::cout << std::endl;
 	std::cout << "double_value : " << double_value << std::endl;
