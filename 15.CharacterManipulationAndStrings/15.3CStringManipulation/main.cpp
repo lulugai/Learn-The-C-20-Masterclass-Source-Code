@@ -3,7 +3,7 @@
 
 int main(){
 
-    /*
+    
 	//std::strlen : Find the length of a string
     // real arrays and those decayed into pointers
     const char message1 [] {"The sky is blue."};
@@ -23,14 +23,14 @@ int main(){
 	
 	//Prints size of pointer
     std::cout << "sizeof(message2) : " << sizeof(message2) << std::endl;
-    */
+    
 
 
    //std::strcmp - signature : int strcmp( const char *lhs, const char *rhs );
     //Returns negative value if lhs appears before rhs in lexicographical order,
     //Zero if lhs and rhs compare equal.
     //and Positive value if lhs appears after rhs in lexicographical order. 
-    /*
+    
     std::cout << std::endl;
     std::cout << "std::strcmp : " << std::endl;
     const char* string_data1{ "Alabama" };
@@ -78,7 +78,7 @@ int main(){
     //Print out the comparison
     std::cout << "std::strcmp (" << string_data1 << "," << string_data2 << ") : "
         << std::strcmp(string_data1, string_data2) << std::endl;
-    */
+    
 
 
 	//std::strncmp : int strncmp( const char *lhs, const char *rhs, std::size_t count );
@@ -148,7 +148,7 @@ int main(){
 
 
     //A lesser version that will loop 25 times
-    /*
+    
 	//Find the first occurrence of a character 
 	//CODE STOLEN FROM THE DOCS : 
 	std::cout << std::endl;
@@ -172,7 +172,7 @@ int main(){
 		++iterations;
 	}
 	std::cout << "iterations : " << iterations << std::endl;
-    */
+    
 
 
 	//Find last occurence
