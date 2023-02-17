@@ -16,7 +16,7 @@ int main(){
 
 
 void say_age(const int* const age){ // Parameter
-    //++(*age); //
+    // ++(*age); //
     std::cout <<  "Hello , you are " << *age << " years old! &age : " << &age <<  std::endl;//24
-    //age = & dog_count;
+    // age = & dog_count;
 }
