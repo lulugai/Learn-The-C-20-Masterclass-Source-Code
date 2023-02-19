@@ -16,14 +16,14 @@ std::string add_strings(std::string str1, std::string str2){
 int main(){
 
     
-    /*
+    
     int x{15};
     int y{9};
     int result = sum(x,y);
     std::cout << "Out : &result(int) :  " << &result << std::endl;
     std::cout << "result : " << result << std::endl;
-    */
- 
+    
+
 
    
     std::string in_str1{"Hello"};
