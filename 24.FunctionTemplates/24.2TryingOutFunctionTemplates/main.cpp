@@ -15,7 +15,7 @@ int main(){
     int* p_x {&x};
     int* p_y{&y};
 
-    auto result = maximum(p_x,p_y);
+    auto result = maximum(p_x,p_y); //wrong result!!!!!
     std::cout << "result : " << *result << std::endl;
    
     return 0;

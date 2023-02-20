@@ -16,7 +16,7 @@ int main(){
 
     //Explicit template arguments
 
-    auto max = maximum<double>(a,f);
+    auto max = maximum<double>(a,c);
     std::cout << "max : " << max << std::endl;
    
     return 0;
