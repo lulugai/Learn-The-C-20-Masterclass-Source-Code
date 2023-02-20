@@ -14,7 +14,7 @@ const char * maximum<const char*> (const char* a, const char* b){
 
 int main(){
 
-    /*
+    
 	int a{10};
 	int b{23};
 	double c{34.7};
@@ -29,7 +29,7 @@ int main(){
 	std::cout << "max_int : " << max_int << std::endl;
 	std::cout << "max_double : " << max_double << std::endl;
 	std::cout << "max_str : " << max_str << std::endl;
-    */
+    
 
     //
 	const char* g{"wild"};
