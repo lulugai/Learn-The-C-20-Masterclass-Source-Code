@@ -24,9 +24,9 @@ T add(T a, T b){
 
 int main(){
 
-    long long int x{7};
-    long long int y{5};
-
+    long int x{7};
+    long int y{5};
+    std::cout << "sizeof(x): " << sizeof(x) << std::endl;
     add(x,y);
 
    

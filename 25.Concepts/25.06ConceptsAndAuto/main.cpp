@@ -10,7 +10,7 @@ std::integral auto add (std::integral auto a,std::integral auto b){
 
 int main(){
 
-    std::floating_point auto x = add(5,8);
+    std::integral auto x = add(5,8);
   
     return 0;
 }
