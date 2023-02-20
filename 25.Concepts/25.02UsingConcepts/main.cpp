@@ -11,12 +11,12 @@ T add( T a, T b){
 */
 
 //Syntax2
-/*
+
 template <std::integral T>
 T add( T a, T b){
     return a + b;
 }
-*/
+
 
 //Syntax3
 /*
@@ -26,10 +26,10 @@ auto add(std::integral auto a , std::integral auto b){
 */
 
 //Syntax4
-template <typename T>
-T add( T a, T b) requires std::integral<T>{
-    return a + b;
-}
+// template <typename T>
+// T add( T a, T b) requires std::integral<T>{
+//     return a + b;
+// }
 
 int main(){
 
@@ -46,10 +46,10 @@ int main(){
 	std::cout << "result_b : " << result_b << std::endl;
 
 
-	double c_0 {11.1};
-	double c_1 {1.9};
-	auto result_c = add(c_0,c_1);
-    std::cout << "result_c : " << result_c << std::endl;
+	// double c_0 {11.1};
+	// double c_1 {1.9};
+	// auto result_c = add(c_0,c_1);
+    // std::cout << "result_c : " << result_c << std::endl;
  
   
     return 0;
