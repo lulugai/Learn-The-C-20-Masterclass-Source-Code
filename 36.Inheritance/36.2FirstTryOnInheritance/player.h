@@ -3,8 +3,8 @@
 
 #include <string>
 #include <iostream>
-#include <string_view>
 #include "person.h"
+#include <string_view>
 
 class Player : public Person
 {
