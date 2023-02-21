@@ -1,6 +1,6 @@
 #include <iostream>
 
-class Dog{
+class Dog{          //private default
     public : 
         std::string m_name;
 };
