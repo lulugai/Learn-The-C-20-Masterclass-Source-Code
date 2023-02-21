@@ -5,15 +5,15 @@ const double PI {3.1415926535897932384626433832795};
 class Cylinder {
     public : 
         //Constctors
-        Cylinder(){
-            base_radius = 2.0;
-            height = 2.0;
-        }
+        // Cylinder(){
+        //     base_radius = 2.0;
+        //     height = 2.0;
+        // }
 
-        Cylinder(double rad_param,double height_param){
-            base_radius = rad_param;
-            height = height_param;
-        }
+        // Cylinder(double rad_param,double height_param){
+        //     base_radius = rad_param;
+        //     height = height_param;
+        // }
    
         //Functions (methods)
         double volume(){
@@ -28,7 +28,7 @@ class Cylinder {
 
 
 int main(){
-    //Cylinder cylinder1(10,4); // Object
+    // Cylinder cylinder1(10,4); // Object
     Cylinder cylinder1;
     std::cout << "volume : " << cylinder1.volume() << std::endl;
 

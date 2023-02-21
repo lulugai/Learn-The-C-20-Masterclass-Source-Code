@@ -37,7 +37,7 @@ int main(){
 
     some_func();
     
-
+    Dog dog("Great","Shepherd",2);
     std::cout << "Done!" << std::endl;
     return 0;
 }

@@ -10,7 +10,7 @@ int main(){
     //Managing a stack object through pointers
     Cylinder* p_cylinder1 = &cylinder1;
 
-    //std::cout << "volume : " << (*p_cylinder1).volume() << std::endl;
+    std::cout << "volume : " << (*p_cylinder1).volume() << std::endl;
     std::cout << "volume : " << p_cylinder1->volume() << std::endl;
 
     //Create a cylinder heap object through the new operator
