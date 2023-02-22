@@ -17,7 +17,7 @@ public:
                     << std::endl;
     }
 
-    virtual void draw(int color_depth, std::string_view color) const{
+    virtual void draw(int color_depth, std::string_view color) const{   //cannot be jicheng by Circle
 		std::cout << "Drawing with color depth : " << color_depth 
 		<< " and color : " << color << std::endl;
 	}
