@@ -6,7 +6,7 @@
 
 class Engineer : public Person
 {
-    using Person::Person; // Inheriting constructors
+    using Person::Person; // Inheriting constructors  
 friend std::ostream& operator<<(std::ostream& out , const Engineer& operand);
 public:
 /*
