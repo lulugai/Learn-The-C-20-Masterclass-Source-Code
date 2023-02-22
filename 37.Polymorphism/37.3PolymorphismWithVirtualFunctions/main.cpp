@@ -27,18 +27,18 @@ int main(){
 
     //Base pointers
     Shape * shape_ptr = &shape1;
-    //shape_ptr->draw(); // Shape::draw
+    shape_ptr->draw(); // Shape::draw
 
     shape_ptr = &oval1;
-    //shape_ptr->draw(); // Oval::draw()
+    shape_ptr->draw(); // Oval::draw()
 
     shape_ptr = &circle1;
-    //shape_ptr->draw(); // Circle::draw()
+    shape_ptr->draw(); // Circle::draw()
 
 
     //Base references
     Shape& shape_ref = circle1;
-    //shape_ref.draw(); // Cicle::draw()
+    shape_ref.draw(); // Cicle::draw()
 
 
  

@@ -14,7 +14,7 @@ int main(){
      //Slicing
     Circle circle1(3.3,"Circle1");
     Shape shape = circle1;
-    shape.draw(); //Shape::draw
+    shape.draw(); //Shape::draw !!!!!!!!!!!!!!!!!!!!!!!
 
     return 0;
 }
