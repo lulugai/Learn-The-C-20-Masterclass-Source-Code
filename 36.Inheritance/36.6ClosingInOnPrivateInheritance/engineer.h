@@ -14,7 +14,7 @@ public:
     void build_something(){
         m_full_name = "John Snow"; // OK
         m_age = 23; // OK
-        //m_address = "897-78-723"; Compiler error
+        // m_address = "897-78-723"; //Compiler error
     }
     
 private : 
