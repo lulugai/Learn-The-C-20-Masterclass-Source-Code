@@ -43,7 +43,7 @@ int main(){
     */
 
 
-    //Smart pointers
+    //Smart pointers  
 	std::shared_ptr<Shape> shapes4[] {std::make_shared<Circle>(12.2,"Circle4"),
                             std::make_shared<Oval>(10.0,20.0,"Oval4")};
     for(auto& s : shapes4){
