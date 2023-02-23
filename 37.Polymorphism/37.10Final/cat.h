@@ -1,7 +1,7 @@
 #ifndef CAT_H
 #define CAT_H
 #include "feline.h"
-class Cat final : public Feline
+class Cat final : public Feline  
 {
 public:
     Cat() = default;
