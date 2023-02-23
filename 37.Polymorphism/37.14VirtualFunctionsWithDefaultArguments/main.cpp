@@ -6,7 +6,7 @@ int main(){
     //Base ptr : Uses polymorphism
     Base * base_ptr1 = new Derived;
     double result = base_ptr1->add();
-    std::cout <<"Result (base ptr) : " << result  << std::endl; //12
+    std::cout <<"Result (base ptr) : " << result  << std::endl; //12 donnot use default argument in virtual function
 
 
     std::cout << "---------------------"<< std::endl;
