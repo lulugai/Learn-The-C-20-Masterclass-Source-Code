@@ -11,7 +11,7 @@ public:
     Shape(std::string_view description);
     ~Shape();
     
-     virtual void draw() const{  //virtual for override
+    virtual void draw() const{  //virtual for override
         std::cout << "Shape::draw() called. Drawing " << m_description << std::endl;
     }
     
