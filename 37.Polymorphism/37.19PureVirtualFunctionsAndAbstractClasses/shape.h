@@ -12,7 +12,7 @@ public :
     
     virtual ~Shape() = default; // If destructor is not public, you won't be
                             // able to delete base_ptrs. SHOW THIS TO STUDENTS
-    //Pure virtual functions
+    //Pure virtual functions 
     virtual double perimeter() const = 0;
     virtual double surface() const = 0;
 private : 
